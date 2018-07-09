@@ -120,7 +120,8 @@
   - Burner miners - 1 stone, 4-6 for iron, 1-2 for copper, 2-4 on coal
 * V2 server plan
 ** Themes
-- city layout
+- city layout - 
+  - https://forums.factorio.com/viewtopic.php?f=5&t=37024 and https://imgur.com/a/Rdxid
   - preserve the walkways!!!
 - layout to grid
 - consistent layout
