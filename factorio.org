@@ -1,0 +1,147 @@
+* Mods
+** Use
+- [ ] picker extender <- or get from big bags
+- [ ] Power armor mk3 & mk4
+- [ ] Smart inserters
+- [ ] Big bags <- disable stack increase/maybe swap for larger inventory
+- [ ] Long reach
+- [ ] Bottleneck
+- [ ] Research queue <- meh
+- [ ] A Better Start - medium or big?
+- [ ] Auto deconstruct <- mark miners without resources for deletion
+- [ ] LTN
+** To consider
+- Auto Fill
+- Nano bots
+- Beast finder
+- Longer underground belt (aligned)
+- Electric vehicles
+- Smart displays
+- Single-Splitter - Balances load on a single Belt
+- Pavement Drive Assist - Introduces a driver assistance system that autonomously follows paved roads, while maintaining a preset cruise speed if desired.
+- Miner Planner - auto plan miners for a resource
+- Resource Labels - add icons for resources on the map
+- Todo List - This mod adds a todo list to the single- and multiplayer game to allow players to synchronize their work.
+- Filtered Deconstruction Planner - ability for entities to be targeted for or be excluded from deconstruction by bots.
+- Better Bots Technologies
+- Logistic Research Fix - Reverts the science requirements of the Logistic System research to the pre-0.15 levels, because screw doing production and high tech science without requesters.
+*** Planning
+- Upgrade Builder and Planner
+- Helmod
+*** Not really useful for V2 server
+- [ ] Air filtering
+** Game changing
+- factorrisimo 2
+- Assembling machine zero
+- Even distribution
+- Auto research
+- F.A.R.L
+- Squeak through
+- Warehousing mod
+- Big brother
+* A Better Start Mod Levels
+** Small Pack - Only to speed up the initial grind
+- 10 Steel Axes
+- 200 Iron Plates
+- 200 Copper Plates
+- 50 Iron Gear Wheels
+- 500 Transport Belts, 50 Splitters, 50 Underground Belts
+- 20 Burner Mining Drills
+- 100 Coal
+*** NO TECHNOLOGIES
+** Starter Pack - Everything in the previous tier AND skipping straight to automation
+- More Iron and Copper plates
+- More belts
+- 30x Electric Mining drills
+- 48x Stone Furnaces
+- 100x Inserters
+- 10 Boilers, 20 Steam Engines, 1 Offshore Pump.
+*** TECHNOLOGIES INCLUDED
+- Automation, Electronics, Toolbelt, Logistics, Electric Energy Destribution 1
+** Medium Pack - Everything in the previous tier + moar + START WITH CONSTRUCTION ROBOTS
+- Power Armour with: fusion reactor, 4x personal roboport, 3x battery.
+- Moar Plates
+- Moar Belts
+- Green Circuits
+- 100x Assembling machine 2
+- 300 Inserers
+- 50 Long inserters
+- Steel chests
+- 50 electric mining drills
+- Allllll the poles
+- Starting power generation supplies
+- Pipes
+- Car
+*** SAME TECHNOLOGIES AS LAST TIER
+** Big Pack - It's big.
+- Power Armour mk2 with 4x exo, better robotports, batteries, night vision. (It's nice).
+- Moar of everything.
+- Logistic Chests
+- Oil refinery setup
+- 20 Chemical Plants
+- 10 Storage Tanks
+- Alllll the poles
+*** TECHNOLOGIES
+- Automation, Automation 2, Steel Processing
+- Plastics, Oil Processing, Fluid Handling
+- Electronics, Advanced Electronics, Sulfur Processing
+- Battery, Toolbelt
+- Engine, Electric Engine, Flying, Robotics
+- Logistic Robotics, Construction Robotics, Logistic System
+* Best Practices/Design Patterns
+** Links
+- Factorio cheat sheet https://dddgamer.github.io/factorio-cheat-sheet/
+- Design collection - https://imgur.com/gallery/ERVhg
+** Power
+- 1 pump - 20 boilers - 40 steam engines -> 36MW
+  - so 1:2 boiler to steam engine
+- 25 Solar Panels - 21 Accumulators -> 1MW
+*** Nuclear
+- Simple Ratio - 40MW
+  - 1 Reactor
+  - 1 Offshore Pump
+  - 4 Heat pumps
+  - 7 Turbines
+- Common Ratio - 480MW
+  - 4 Reactor
+  - 5 Offshore Pump
+  - 48 Heat pumps
+  - 83 Turbines
+- Use storage tanks as buffers
+** Oil
+- Simple Cracking - 8 crude - 1 heavy light - 7 petro light
+- Accurate Cracking - 25 crude - 3 heavy light - 21 petro light
+** Other
+- 3 coil assemblers feeding 2 green circuit
+- Alex's solar/accumulator blueprint
+- one-space gap between walls and turrets
+  - otherwise medium and large biters can bite turrets directly
+- Starting build
+  - Burner miners - 1 stone, 4-6 for iron, 1-2 for copper, 2-4 on coal
+* V2 server plan
+** Themes
+- city layout
+  - preserve the walkways!!!
+- layout to grid
+- consistent layout
+  - use more blueprints, maybe even for things like power poles (so they have lights?)
+  - can we hotkey this better?
+- Use trains more
+  - trains in V1 don't seem to provide a benefit over belts/pipeline?
+  - Should we start out planning to go further out?
+- Avoid hand crafting
+- I don't like running out of ore every hour
+  - Backfill ore - deposit runs into next one, even though just sitting idle
+  - use slow mining
+** Map settings
+- maybe rail world?
+- Starting area - very large
+- Resource Frequency - lower to increase size of deposits
+- Cliff frequency - low
+- resource size - large or very large
+- cliff size - small to avoid bug
+- resource richness - very high
+** Game settings
+- biters off or biters passive
+  - or maybe use pollution cleaner mod, much better pollution dissapation, slower evolution curve
+** Mods
