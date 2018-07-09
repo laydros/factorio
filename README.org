@@ -28,7 +28,7 @@
 *** Planning
 - Upgrade Builder and Planner
 - Helmod
-*** Not really useful for V2 server
+*** Not really useful for V2 server if bugs are peaceful or off
 - [ ] Air filtering
 ** Game changing
 - factorrisimo 2
