@@ -132,6 +132,9 @@
 - Use trains more
   - trains in V1 don't seem to provide a benefit over belts/pipeline?
   - Should we start out planning to go further out?
+- Grid aligned train layouts
+  - blueprints - [[https://forums.factorio.com/viewtopic.php?f=194&t=59517][Chunk aligned modular rails, mostly for 1-4-1 trains]]
+  - [[https://forums.factorio.com/viewtopic.php?f=194&t=41486][Chunk-aligned modular railway system]]
 - Avoid hand crafting
 - I don't like running out of ore every hour
   - Backfill ore - deposit runs into next one, even though just sitting idle
